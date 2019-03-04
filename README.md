@@ -1,1 +1,1 @@
-# go-minecraft-stats-server
+# go-minecraft-stats
