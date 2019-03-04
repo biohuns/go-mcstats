@@ -7,8 +7,17 @@ import (
 
 //Cfg is config parameters
 type Cfg struct {
+	MC     mc     `json:"mc"`
+	Server server `json:"server"`
+}
+
+type mc struct {
 	Host string `json:"host"`
 	Port int    `json:"port"`
+}
+
+type server struct {
+	Port int `json:"port"`
 }
 
 //LoadConfig load and parse config.json file
