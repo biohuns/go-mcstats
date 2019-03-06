@@ -1,12 +1,12 @@
 # go-mcstats
 
-# Install
+## Install
 
 ```
 $ go get -u github.com/biohuns/go-mcstats
 ```
 
-# Usage
+## Usage
 
 ```
 $ go-mcstats(.exe) -host minecraft.example.com (optional) -port 25565
